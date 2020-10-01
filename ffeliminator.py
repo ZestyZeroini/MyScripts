@@ -1,6 +1,8 @@
 import os
 def file_remover():
-	print ("File name:")
+	print ("File path:")
 	a = input(">")
 	print (a)
-	
+	os.remove(a)
+
+file_remover()
